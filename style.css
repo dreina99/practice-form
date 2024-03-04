@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 35%;
+    height: 100vh;
+    background-image: url("christina-deravedisian-TFf8xg0GPbo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    padding: 10px;
+}
+
+input, label { 
+    display: block;
+    width: 250px;
+}
+
+.row {
+    display: flex;
+    gap: 50px
+}
+
+.block {
+    display: block;
+}
+
+
