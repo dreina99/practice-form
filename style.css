@@ -1,3 +1,8 @@
+@font-face {
+    font-family: typewriter;
+    src: url(dogtown-typewriter-font/DogtownTypewriter-OVwKo.ttf);
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -9,7 +14,7 @@ body, html {
 }
 
 .left {
-    width: 35%;
+    width: 40%;
     height: 100vh;
     background-image: url("christina-deravedisian-TFf8xg0GPbo-unsplash.jpg");
     background-repeat: no-repeat;
@@ -27,7 +32,26 @@ input, label {
 
 .row {
     display: flex;
-    gap: 50px
+    gap: 50px;
+}
+
+.left-text {
+    color: white;
+    background-color: rgb(0 0 0 / 40%);
+    font-family: typewriter;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    gap: 5px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.wave {
+    height: 50px;
+    width: 50px;
 }
 
 .block {
